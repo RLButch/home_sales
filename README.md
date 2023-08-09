@@ -6,7 +6,7 @@ This project was build using Pyspark and google colab. Class exercises and tutor
 
 Answer the following questions using SparkSQL:
 
-What is the average price for a four-bedroom house sold for each year? Round off your answer to two decimal places.
+What is the average price for a four-bedroom house sold for each year? Round off your answer to two decimal places.    
 ---------+---------+
 |year_sold|avg_price|
 +---------+---------+
@@ -14,8 +14,10 @@ What is the average price for a four-bedroom house sold for each year? Round off
 |     2020|298353.78|
 |     2021|301819.44|
 |     2022|296363.88|
-+---------+---------+
-What is the average price of a home for each year it was built that has three bedrooms and three bathrooms? Round off your answer to two decimal places.
++---------+---------+      
+
+What is the average price of a home for each year it was built that has three bedrooms and three bathrooms? Round off your answer to two decimal places.    
+
 ----------+---------+
 |year_built|avg_price|
 +----------+---------+
@@ -26,9 +28,11 @@ What is the average price of a home for each year it was built that has three be
 |      2014|290852.27|
 |      2015| 288770.3|
 |      2016|290555.07|
-|      2017|292676.79|
+|      2017|292676.79|  
+
 +----------+---------
-What is the average price of a home for each year that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet? Round off your answer to two decimal places.
+What is the average price of a home for each year that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet? Round off your answer to two decimal places.      
+
 ---------+---------+
 |year_built|avg_price|
 +----------+---------+
@@ -39,8 +43,10 @@ What is the average price of a home for each year that has three bedrooms, three
 |      2014|298264.72|
 |      2015|297609.97|
 |      2016| 293965.1|
-|      2017|280317.58|
-What is the "view" rating for homes costing more than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places.
+|      2017|280317.58|      
+
+What is the "view" rating for homes costing more than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places.    
+
 +----+---------+
 |view|avg_price|
 +----+---------+
@@ -63,11 +69,13 @@ What is the "view" rating for homes costing more than or equal to $350,000? Dete
 |  66| 712475.0|
 |  67|737970.96|
 |  68|716785.44|
-|  69|750537.94|
-+----+---------+
-only showing top 20 rows
+|  69|750537.94|        
 
-Determine the runtime and compare it to uncached runtime. With each step, the time to run the query reduced, with the respective times for each step:  
-1. 0.9926507472991943 seconds
-2. 0.5121076107025146 seconds
-3. 0.37091922760009766 seconds
++----+---------+
+only showing top 20 rows    
+
+
+Determine the runtime and compare it to uncached runtime. With each step, the time to run the query reduced, with the respective times for each step:    
+1. 0.9926507472991943 seconds    
+2. 0.5121076107025146 seconds    
+3. 0.37091922760009766 seconds      
